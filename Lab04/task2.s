@@ -3,12 +3,12 @@
 
  main: 
     addi sp, x0, 500
-    addi x10, x0, 6
+    addi x10, x0, 5
     jal x1, func
     beq x0, x0, exit
 
 func:
-    addi sp, sp -8
+    addi sp, sp, -8
     sw x1, 0(sp)
     sw x10, 4(sp)
     addi x5, x10, -1

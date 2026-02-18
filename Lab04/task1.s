@@ -3,7 +3,7 @@
 
 main:
 li x11, 5
-li x20,0 #zero 0
+li x20, 0 #0
 li x12, 1 #output
 
 blt x11, x20, negative # if n<0 then error
